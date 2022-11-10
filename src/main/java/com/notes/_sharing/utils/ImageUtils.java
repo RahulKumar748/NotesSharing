@@ -1,4 +1,4 @@
-package utils;
+package com.notes._sharing.utils;
 
 import java.util.Base64;
 
