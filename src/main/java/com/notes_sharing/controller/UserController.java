@@ -31,7 +31,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.notes._sharing.utils.ImageUtils;
 import com.notes_sharing.entity.File;
 import com.notes_sharing.entity.Notes;
 import com.notes_sharing.entity.ProfilePic;
@@ -39,6 +38,7 @@ import com.notes_sharing.entity.UserDtls;
 import com.notes_sharing.repository.NotesRepository;
 import com.notes_sharing.repository.ProfilePicRepository;
 import com.notes_sharing.repository.UserRepository;
+import com.notes_sharing.utils.ImageUtils;
 import com.notes_sharing.repository.FileRepository;
 
 @Controller
