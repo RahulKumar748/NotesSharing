@@ -29,6 +29,12 @@
 									class="form-control">[[${notes.content}]]</textarea>
 							</div>
 							<input type="hidden" th:value="${notes.id}" name="id">
+							<div>
+								<a th:href="@{'/user/downloadFile/'+${file.id}}"
+									class="btn btn-danger btn-sm ml-2">Download File</a>
+								<a th:href="@{'/user/openFile/'+${file.id}}" class="btn btn-primary btn-sm ml-2" target="_blank">View
+									File</a>
+							</div>
 
 							<div class="text-center">
 								<button class="btn btn-primary">Update</button>
